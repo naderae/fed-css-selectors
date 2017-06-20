@@ -1,2 +1,17 @@
 /* Move your styles here when you're ready to clean up your HTML file */
 /* Don't forget to link to this file in your HTML, otherwise your styles won't show up! */
+*{
+  font-size: 25px;
+}
+h1, h2{
+  font-family: arial;
+}
+header{
+  border-bottom: 5px solid red;
+}
+.class-list{
+  list-style-type: square;
+}
+.item{
+  border: 5px dashed blue;
+}
