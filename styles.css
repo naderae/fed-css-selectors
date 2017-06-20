@@ -29,3 +29,20 @@ header{
 #item2{
   text-align: right;
 }
+
+ol {
+  padding: 5px;
+  background-color: yellow;
+}
+li:nth-child(2n+1){
+  background-color: green;
+}
+[title~="Bitmaker"]:hover{
+  text-decoration: none;
+}
+#advanced-selectors ul a:hover{
+  background-color: yellow;
+}
+#advanced-selectors ul a:active{
+  background-color: red;
+}
